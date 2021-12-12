@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultGap">16dp</dimen>
+    <dimen name="subTitle_fontSize">20sp</dimen>
+    <dimen name="studenList_textInput_height">250dp</dimen>
+</resources>

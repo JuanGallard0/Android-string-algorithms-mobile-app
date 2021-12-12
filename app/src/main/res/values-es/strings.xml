@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizador de Habitaciones</string>
+    <string name="studentList_textLayout_hint">FORMATO: nombre,S,E;nombre,S,E;nombre,S,E</string>
+    <string name="studentList_textView_text">Ingresa la lista de estudiantes en el paseo:</string>
+    <string name="organize_button_text">organizar</string>
+    <string name="studentList_error_format">ERROR: formato de string incorrecto</string>
+    <string name="studentList_error_duplicate">ERROR: no se permite repetir nombres</string>
+    <string name="studentList_error_empty">ERROR: el campo está vacío</string>
+    <string name="outputLabel_textView_text">Organización de habitaciones</string>
+    <string name="roomOrganization_textView_rooms">PAREJAS ASIGNADAS</string>
+    <string name="roomOrganization_text_leftOut">ESTUDIANTES SIN PAREJA ADECUADA</string>
+</resources>

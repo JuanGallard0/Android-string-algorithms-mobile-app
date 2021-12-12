@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/subTitle_textView"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/subTitle_fontSize"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/defaultGap"
+        android:layout_marginTop="@dimen/defaultGap"
+        android:text="@string/studentList_textView_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@id/studentList_textLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/defaultGap"
+        android:layout_marginTop="@dimen/defaultGap"
+        android:layout_marginRight="@dimen/defaultGap"
+        android:hint="@string/studentList_textLayout_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle_textView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentList_textInput"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/studenList_textInput_height"
+            android:gravity="top"
+            android:minLines="2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/organize_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultGap"
+        android:layout_marginEnd="@dimen/defaultGap"
+        android:text="@string/organize_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studentList_textLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

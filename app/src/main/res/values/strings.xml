@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">" Room Organizer"</string>
+    <string name="studentList_textLayout_hint">FORMAT: name,S,E;name,S,E;name,S,E</string>
+    <string name="studentList_textView_text">Enter the list of students on the trip:</string>
+    <string name="organize_button_text">organize</string>
+    <string name="studentList_error_format">INPUT ERROR: incorrect string format</string>
+    <string name="studentList_error_duplicate">INPUT ERROR: cannot repeat names</string>
+    <string name="studentList_error_empty">ERROR INPUT: string is empty</string>
+    <string name="outputLabel_textView_text">Room organization</string>
+    <string name="roomOrganization_textView_rooms">ASSIGNED PAIRS</string>
+    <string name="roomOrganization_text_leftOut">STUDENTS WITHOUT SUITABLE PAIR</string>
+    <string name="tab" translatable="false">\u0009\u0009\u0009\u0009</string>
+</resources>
